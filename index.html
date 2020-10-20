@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -17,12 +18,27 @@
 <meta property="og:image:width" content="1080" />
 <meta property="og:image:height" content="1080" />
 <link rel="icon" href="logo.jpg"/>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Piazzolla:wght@100;300;400;500&display=swap" rel="stylesheet">
 <style type="text/css">
 body {
 	min-height: 100vh;
 	margin: 0;
 	background-color: #f2d9d4;
-	font-family: sans-serif;
+	font-family: 'Piazzolla', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #13473C;
+	font-family: 'Dancing Script', sans-serif;
+}
+
+h2 {
+	font-size: 3rem;
+	margin-bottom: 0.5rem;
+}
+
+.mb-5 {
+	margin-bottom: 2rem;
 }
 
 img {
@@ -43,16 +59,77 @@ img {
 	align-items: center;
 }
 
+.flex-column {
+	flex-direction: column;
+}
+
 .justify-content-center {
 	justify-content: center;
+}
+
+p {
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+ul {
+	list-style: none;
+	margin: 1rem 0;
+	padding: 0;
+}
+
+ul li {
+	line-height: 1.8;
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+a,
+a:visited,
+a:focus,
+a:hover {
+	color: #fff;
 }
 
 </style>
 </head>
 <body class="d-flex justify-content-center align-items-center">
-	<div class="content-wrapper d-flex align-items-center justify-content-center">
+	<div class="content-wrapper d-flex flex-column align-items-center justify-content-center">
 		<div class="text-center">
-			<img src="logo.jpg" width="500" height="500">
+			<img src="logo.jpg" width="200" height="200">
+		</div>
+		<h2>About</h2>
+		<div class="intro-text mb-5">
+			<p>Juliana by A&E is a sister-managed clothing project by Addrienne and Eunique</p>
+			<p>We sell all clothes (mostly dress) on our Facebook page: <a href="https://www.facebook.com/julianabyae/">Juliana by By A & E</a><br>
+			Thrifted but good as new clothes Korea/bangkok quality items.</p>
+		</div>
+		<h2>Mode of Payment</h2>
+		<div class="mb-5">
+			<ul>
+				<li>GCash, BDO, BPI, Cash on meetup</li>
+			</ul>
+		</div>
+		<h2>Meetup & Shipping</h2>
+		<div class="mb-5">
+			<ul>
+				<li>🗸 Shipping nationwide every Saturday and Sunday</li>
+				<li>🗸 50% Shipping fee discount for orders over P849.99</li>
+				<li>🗸 Cash on Delivery available via LBC (Expect different rate)</li>
+				<li>🗸 Shipping fee will vary depending on items weight</li>
+				<li>🗸 FREE handling fee for orders P400 and above (for meetup only)</li>
+				<li>🗸 Meetup withing nearby areas only, minimal amount of handling fee (if applies)</li>
+			</ul>
+		</div>
+		<h2>Fabric, Size & Notes</h2>
+		<div class="mb-5">
+			<ul>
+				<li>🗸 Free size</li>
+				<li>🗸 Measurements are for reference only</li>
+				<li>🗸 Thrifted/Well loved items</li>
+				<li>🗸 Colors may vary due to lighting</li>
+				<li>🗸 Actual photos posted</li>
+			</ul>
 		</div>
 	</div>
 </body>
