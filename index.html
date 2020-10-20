@@ -97,9 +97,23 @@ a:hover {
 	color: #fff;
 }
 
+li {
+	display: flex;
+	align-items: center;
+}
+
+li::before {
+	margin-right: 5px;
+	content: '';
+	display: block;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
 @media only screen and (min-width: 768px) {
-	p,
-	li {
+	p, ul li {
 		font-size: 1.2rem;
 	}
 	h2 {
@@ -128,13 +142,13 @@ a:hover {
 		</div>
 		<h2>Meetup & Shipping</h2>
 		<div class="mb-5">
-			<ul>
-				<li>Shipping nationwide every Saturday and Sunday</li>
-				<li>50% Shipping fee discount for orders over P849.99</li>
-				<li>Cash on Delivery available via LBC (Expect different rate)</li>
-				<li>Shipping fee will vary depending on items weight</li>
-				<li>FREE handling fee for orders P400 and above (for meetup only)</li>
-				<li>Meetup withing nearby areas only, minimal amount of handling fee (if applies)</li>
+			<ul class="text-center">
+				<li class="text-center">Shipping nationwide every Saturday and Sunday</li>
+				<li class="text-center">50% Shipping fee discount for orders over P849.99</li>
+				<li class="text-center">Cash on Delivery available via LBC (Expect different rate)</li>
+				<li class="text-center">Shipping fee will vary depending on items weight</li>
+				<li class="text-center">FREE handling fee for orders P400 and above (for meetup only)</li>
+				<li class="text-center">Meetup withing nearby areas only, minimal amount of handling fee (if applies)</li>
 			</ul>
 		</div>
 		<h2>Fabric, Size & Notes</h2>
